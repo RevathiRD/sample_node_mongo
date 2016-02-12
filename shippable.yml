@@ -6,7 +6,7 @@ node_js:
   - 0.10.25
 
 # Mongo binds to 127.0.0.1 by default
-build_image: drydock/u12nodpls:tip
+#: drydock/u12nodpls:tip
 services:
   - mongodb
 
@@ -22,6 +22,7 @@ before_script:
 # Running the tests with grunt
 script:
   - grunt
+
 
 # Tell istanbul to generate a coverage report
 after_script:
